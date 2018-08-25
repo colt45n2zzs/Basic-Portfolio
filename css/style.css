@@ -16,23 +16,21 @@
           left: 68%;
           top: 30%;
           margin: auto;
-          display: inline;
-
-
-          
+          display: inline;   
         
         }
           
         #about1 { border-right: 1px;
             border-right-style: solid;
             border-right-color: #777777;
+            padding: 3px;
           }
 
         #portfolio { border-right: 1px;
             border-right-style: solid;
             border-right-color: #777777;
+            padding-right: 3px;
           }
-
 
 .name {color: #ffffff;
        background-color: #4aaaa5;
@@ -44,44 +42,34 @@
        right: 77%;
        text-align: center;
 
-
 }
 
 .body { background-image: url(../images/what-the-hex.png);
         color: #777777;
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
-
-
-
 }
 
 #about {color:#4aaaa5;
-        border-bottom: 2px;
-        border-bottom-style: tsolid;
+        border-bottom: 1px;
+        border-bottom-style: solid;
         border-bottom-color: #777777;
         float: left;
         margin: 10px;
         font-size: 20px;
-
-          
+        padding-top: 20px; 
 
 }
 
 #profile { float: left;
+           margin: 10px;
           
+}
+
+#p1 {
 
 
 }
-
-#p1 {display: inline-block;
-
-
-
-}
-
-
-
 
 
 #box1 { height: 480px;
@@ -92,9 +80,16 @@
         position: absolute;
         top: 15%;
         right: 20%;
-        border: 2px;
+        border: 1px;
         border-style: solid;
         border-color: #777777;
+
+}
+
+.box1contents {position: absolute;
+               right: 5%;
+               top: 20%;
+
 
 }
 
@@ -106,7 +101,7 @@
     position: absolute;
     top: 15%;
     right: 20%;
-    border: 2px;
+    border: 1px;
     border-style: solid;
     border-color: #777777
 
