@@ -17,7 +17,8 @@
           left: 1040px;
           top: 25px;
           margin: auto;
-          display: inline;   
+          display: inline; 
+          color: #777777;  
         
         }
           
@@ -26,6 +27,7 @@
           border-right-color: #777777;
           padding-right: 3px;
           text-decoration: none;
+          color: #777777;
 
         }
 
@@ -34,10 +36,12 @@
             border-right-color: #777777;
             padding-right: 3px;
             text-decoration: none;
+            color: #777777;
 
         }
 
 #contact {text-decoration: none;
+          color: #777777;
 
         }  
 
