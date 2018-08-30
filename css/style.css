@@ -83,7 +83,7 @@ body {background-image: url(../images/what-the-hex.png);
 
         }
 
-#box1 {height: 480px;
+#box1 {height: 65%;
        width: 960px;
        background-color: #ffffff;
        text-align: center;
@@ -109,7 +109,7 @@ body {background-image: url(../images/what-the-hex.png);
 
         }
 
-.box2 {height: 480px;
+.box2 {height: 70%;
        width: 960px;
        background-color: #ffffff;
        text-align: left;
@@ -129,7 +129,7 @@ body {background-image: url(../images/what-the-hex.png);
 
         }
 
-#box3 {height: 500px;
+#box3 {height: 70%;
        width: 960px;
        background-color: #ffffff;
        text-align: left;
