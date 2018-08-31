@@ -109,6 +109,12 @@ body {background-image: url(../images/what-the-hex.png);
 
         }
 
+#profilepic {width: 150px;
+             height: 150px; 
+             float: left;
+
+}
+
 .box2 {height: 70%;
        width: 960px;
        background-color: #ffffff;
@@ -200,31 +206,38 @@ body {background-image: url(../images/what-the-hex.png);
 #ph1 {position: absolute;
       top: 100px;
       right: 100px;
+      
 
         }
 
 #ph2 {position: absolute;
       top: 100px;
       right: 400px;
+     
 
         }
 
 #ph3 {position: absolute;
       top: 100px;
       right: 700px;
+    
 
         }
 
 #ph4 {position: absolute;
       top: 300px;
       right: 700px;
-
+   
         }
 
 #ph5 {position: absolute;
       top: 300px;
       right: 400px;
 
+
+        } 
+img {width: 180px;
+     height: 140px;   
         }
 
 #th1 {text-decoration: none;
@@ -261,7 +274,7 @@ body {background-image: url(../images/what-the-hex.png);
       position: absolute;
       top: 192px;
       right: 100px;
-      width: 160;
+      width: 160px;
       text-align: center;
 
         }
