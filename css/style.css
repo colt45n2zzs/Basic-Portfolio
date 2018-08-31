@@ -11,7 +11,7 @@
          border-bottom-style: solid;
          border-bottom-color: #777777;
 
-        }
+}
 
 .toplist {position: absolute;
           left: 70.5%;
@@ -20,7 +20,7 @@
           display: inline; 
           color: #777777;  
         
-        }
+}
           
 #about1 { border-right: 1px;
           border-right-style: solid;
@@ -29,7 +29,15 @@
           text-decoration: none;
           color: #777777;
 
-        }
+}
+
+#about1:hover {color: #4aaaa5;
+
+}
+
+#about1:default {color: #777777;
+
+}
 
 #portfolio {border-right: 1px;
             border-right-style: solid;
@@ -38,12 +46,28 @@
             text-decoration: none;
             color: #777777;
 
-        }
+}
+
+#portfolio:hover {color: #4aaaa5;
+
+}
+
+#portfolio:default {color: #777777;
+
+}
 
 #contact {text-decoration: none;
           color: #777777;
 
-        }  
+}  
+
+#contact:hover {color: #4aaaa5;
+
+}
+
+#contact:default {color: #777777;
+
+}
 
 .name {color: #ffffff;
        background-color: #4aaaa5;
@@ -56,13 +80,13 @@
        text-align: center;
        font-size: 24px;
        
-       }
+}
 
 body {background-image: url(../images/what-the-hex.png);
       color: #777777;
       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
-       }
+}
 
 #about {color:#4aaaa5;
         float: left;
@@ -72,16 +96,16 @@ body {background-image: url(../images/what-the-hex.png);
         margin-left: 30px;
         font-size: 27px;
       
-        }
+}
 
 #profile {float: left;
           margin: 10px;
           
-        }
+}
 
 #p1 { text-align: left;
 
-        }
+}
 
 #box1 {height: 65%;
        width: 960px;
@@ -96,7 +120,7 @@ body {background-image: url(../images/what-the-hex.png);
        border-style: solid;
        border-color: #777777;
 
-        }
+}
 
 .box1contents {position: absolute;
                right: 30px;
@@ -107,7 +131,7 @@ body {background-image: url(../images/what-the-hex.png);
                margin-left: 30px;
                padding-top: 30px;
 
-        }
+}
 
 #profilepic {width: 150px;
              height: 150px; 
@@ -128,12 +152,12 @@ body {background-image: url(../images/what-the-hex.png);
        border-style: solid;
        border-color: #777777;
 
-        }
+}
 
 .box2contents {display: inline-block;
                width: 400px;
 
-        }
+}
 
 #box3 {height: 70%;
        width: 960px;
@@ -148,7 +172,7 @@ body {background-image: url(../images/what-the-hex.png);
        border-style: solid;
        border-color: #777777;
     
-        }
+}
 
 #contactheader {color: #4aaaa5;
                 position: absolute;
@@ -156,7 +180,7 @@ body {background-image: url(../images/what-the-hex.png);
                 top: 30px;
                 font-size: 27px;
 
-        }
+}
 
 #form {position: absolute;
        right: 30px;
@@ -166,12 +190,12 @@ body {background-image: url(../images/what-the-hex.png);
        border-top-color: #777777;
        width: 900px;
 
-        }
+}
 
 .formtags {font-size: 18px;
           display: inline-block;
 
-        }
+}
 
 #submit {margin-top: 10px;
          color: #ffffff;
@@ -183,7 +207,7 @@ body {background-image: url(../images/what-the-hex.png);
          width: 75px;
          text-align: center;
     
-        }
+}
 
 #portfolioheader {color: #4aaaa5;
                   position: absolute;
@@ -191,7 +215,7 @@ body {background-image: url(../images/what-the-hex.png);
                   top: 30px;
                   font-size: 27px;
 
-        }
+}
 
 #pheaderstyle {border-bottom: 1px;
                border-bottom-style: solid;
@@ -201,44 +225,46 @@ body {background-image: url(../images/what-the-hex.png);
                top: 70px;
                left: 30px;
 
-        }                 
+}                 
 
 #ph1 {position: absolute;
       top: 100px;
       right: 100px;
       
 
-        }
+}
 
 #ph2 {position: absolute;
       top: 100px;
       right: 400px;
      
 
-        }
+}
 
 #ph3 {position: absolute;
       top: 100px;
       right: 700px;
     
 
-        }
+}
 
 #ph4 {position: absolute;
       top: 300px;
       right: 700px;
    
-        }
+}
 
 #ph5 {position: absolute;
       top: 300px;
       right: 400px;
 
 
-        } 
+} 
+        
 img {width: 180px;
-     height: 140px;   
-        }
+     height: 140px;
+
+}
 
 #th1 {text-decoration: none;
       color: #ffffff;
@@ -251,7 +277,7 @@ img {width: 180px;
       width: 160px;
       text-align: center;
 
-        }
+}
 
 #th2 {text-decoration: none;
       color: #ffffff;
@@ -264,7 +290,7 @@ img {width: 180px;
       width: 160px;
       text-align: center;
 
-        }
+}
 
 #th3 {text-decoration: none;
       color: #ffffff;
@@ -277,7 +303,7 @@ img {width: 180px;
       width: 160px;
       text-align: center;
 
-        }
+}
 
 #th4 {text-decoration: none;
       color: #ffffff;
@@ -290,7 +316,7 @@ img {width: 180px;
       width: 160px;
       text-align: center;
 
-        }
+}
 
 #th5 {text-decoration: none;
       color: #ffffff;
@@ -303,12 +329,11 @@ img {width: 180px;
       width: 160px;
       text-align: center;
 
-        }
+}
+
 input {width: 900px;
 
-        }
-
-
+}
 
 .footer {
     position: fixed;
@@ -323,4 +348,4 @@ input {width: 900px;
     border-top-style: solid;
     border-top-color: #4aaaa5;
 
-        }
+}
