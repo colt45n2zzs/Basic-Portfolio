@@ -13,8 +13,12 @@
 
 }
 
+header {font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
 .toplist {position: absolute;
-          left: 70.5%;
+          left: 71%;
           top: 35%;
           margin: auto;
           display: inline; 
@@ -22,27 +26,27 @@
         
 }
           
-#about1 { border-right: 1px;
+#about { border-right: 1px;
           border-right-style: solid;
           border-right-color: #777777;
-          padding-right: 3px;
+          padding-right: 5px;
           text-decoration: none;
           color: #777777;
 
 }
 
-#about1:hover {color: #4aaaa5;
+#about:hover {color: #4aaaa5;
 
 }
 
-#about1:default {color: #777777;
+#about:default {color: #777777;
 
 }
 
 #portfolio {border-right: 1px;
             border-right-style: solid;
             border-right-color: #777777;
-            padding-right: 3px;
+            padding-right: 5px;
             text-decoration: none;
             color: #777777;
 
@@ -76,25 +80,41 @@
        position: absolute;
        bottom: 0;
        top: 0;
-       left: 19.5%;
+       left: 20%;
        text-align: center;
        font-size: 24px;
+       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+       font-weight: bold;
+       line-height: 1.2;
        
 }
 
-body {background-image: url(../images/what-the-hex.png);
-      color: #777777;
-      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+.body {background-image: url(../images/what-the-hex.png);
+       color: #777777;
+       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+       line-height: 1.5;
 
 }
 
-#about {color:#4aaaa5;
-        float: left;
-        margin: 10px;
-        font-size: 20px;
-        padding-top: 20px; 
-        margin-left: 30px;
-        font-size: 27px;
+a {font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   line-height: 1.5;
+   height: 22px;
+
+}
+
+strong {font-display: bold;
+        font-size: 27px;      
+
+}
+
+.contentheader {color:#4aaaa5;
+                float: left;
+                margin: 10px;
+                font-size: 20px;
+                padding-top: 10px; 
+                margin-left: 30px;
+                font-size: 27px;
+                font-weight: bold;
       
 }
 
@@ -159,7 +179,7 @@ body {background-image: url(../images/what-the-hex.png);
 
 }
 
-#box3 {height: 70%;
+#box3 {height: 72%;
        width: 960px;
        background-color: #ffffff;
        text-align: left;
@@ -174,13 +194,6 @@ body {background-image: url(../images/what-the-hex.png);
     
 }
 
-#contactheader {color: #4aaaa5;
-                position: absolute;
-                left: 30px;
-                top: 30px;
-                font-size: 27px;
-
-}
 
 #form {position: absolute;
        right: 30px;
@@ -209,13 +222,7 @@ body {background-image: url(../images/what-the-hex.png);
     
 }
 
-#portfolioheader {color: #4aaaa5;
-                  position: absolute;
-                  left: 30px;
-                  top: 30px;
-                  font-size: 27px;
 
-}
 
 #pheaderstyle {border-bottom: 1px;
                border-bottom-style: solid;
@@ -225,7 +232,8 @@ body {background-image: url(../images/what-the-hex.png);
                top: 70px;
                left: 30px;
 
-}                 
+} 
+
 
 #ph1 {position: absolute;
       top: 100px;
